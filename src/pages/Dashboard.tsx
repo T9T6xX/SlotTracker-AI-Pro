@@ -2,15 +2,15 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import * as rrweb from 'rrweb';
-import { SLOTS, INITIAL_STATS_MAP } from '../constants';
-import { SlotStats, SlotConfig, AIInsights, MLAnalysis } from '../types';
-import { runBatchSimulation } from '../services/simulationEngine';
-import { getAIInsights } from '../services/geminiService';
-import { runMLBehavioralForecasting } from '../services/mlService';
-import SlotCard from '../components/SlotCard';
-import RTPChart from '../components/RTPChart';
-import MLDashboard from '../components/MLDashboard';
-import SessionReplay from '../components/SessionReplay';
+import { SLOTS, INITIAL_STATS_MAP } from '../../constants';
+import { SlotStats, SlotConfig, AIInsights, MLAnalysis } from '../../types';
+import { runBatchSimulation } from '../../services/simulationEngine';
+import { getAIInsights } from '../../services/geminiService';
+import { runMLBehavioralForecasting } from '../../services/mlService';
+import SlotCard from '../../components/SlotCard';
+import RTPChart from '../../components/RTPChart';
+import MLDashboard from '../../components/MLDashboard';
+import SessionReplay from '../../components/SessionReplay';
 
 const STAKE_OPTIONS = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0, 50.0, 100.0];
 
