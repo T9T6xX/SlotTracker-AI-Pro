@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SlotTracker AI Pro
 
-# Run and deploy your AI Studio app
+Dein intelligenter Begleiter fürs Spielvergnügen.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1r7_TZpupJ3p6WxhL3SVygvpgy08YGDsH
+- **Session Tracking**: Verfolge deine Spielsessions (Zeit, Einsatz, Gewinn/Verlust).
+- **RTP Analyse**: Berechne deinen persönlichen RTP (Return to Player) und vergleiche ihn mit theoretischen Werten.
+- **Budget Management**: Setze Limits und behalte deine Ausgaben im Blick.
+- **KI-Insights**: Erhalte personalisierte Einblicke und Trends basierend auf deinem Spielverhalten (in Entwicklung).
+- **Modernes UI**: Übersichtliches Dashboard mit Dark Mode Support.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS & shadcn/ui
+- **Icons**: Lucide React
+- **Deployment**: Vercel (empfohlen)
 
+## Installation & Start
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Repository klonen:
+    ```bash
+    git clone https://github.com/T9T6xX/SlotTracker-AI-Pro.git
+    cd SlotTracker-AI-Pro
+    ```
+
+2.  Abhängigkeiten installieren:
+    ```bash
+    npm install
+    ```
+
+3.  Entwicklungsserver starten:
+    ```bash
+    npm run dev
+    ```
+
+4.  Öffne [http://localhost:3000](http://localhost:3000) im Browser.
+
+## Projektstruktur
+
+- `/app`: Next.js App Router Pages & Layouts
+- `/components`: UI-Komponenten (Buttons, Cards, etc.)
+- `/lib`: Hilfsfunktionen (utils.ts)
+- `/public`: Statische Assets
+
+## Lizenz
+
+MIT
